@@ -64,7 +64,7 @@
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url(..\..\assets\img\CREATIVE.png) no-repeat;
+    background: url(..\..\assets\img\CREATIVE.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     color: #fff;
