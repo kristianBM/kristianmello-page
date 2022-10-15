@@ -13,7 +13,7 @@ function Home() {
 
     return (
 
-        <body>
+        <>
             <header className="navbar">
                 <div className="max-width">
                     <div className="logo"><a href="#">Porti<span>fólio</span></a></div>
@@ -239,7 +239,7 @@ function Home() {
                 <span>Criado por <a href="https://github.com/kristianBM">Kristian Mello</a> | Todos os direitos reservados 2022</span>
             </footer>
 
-        </body>
+        </>
 
     )
 }
