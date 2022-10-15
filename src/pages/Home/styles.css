@@ -64,7 +64,7 @@
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url(..\..\assets\img\background.jpg) no-repeat;
+    background: url(https://spring-ionic-aws.s3.sa-east-1.amazonaws.com/background.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
