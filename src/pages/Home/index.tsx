@@ -60,7 +60,7 @@ function Home() {
                             <img src={krisImg} alt="" />
                         </div>
                         <div className="column right">
-                            <div className="text">Sou Kristian e sou <span className="typing-2">
+                            {/* <div className="text">Sou Kristian e sou <span className="typing-2">
                                 <Typewriter
                                     words={['dev Fullstack', 'freelancer', 'viajante nas horas vagas!']}
                                     loop={false}
@@ -70,11 +70,16 @@ function Home() {
                                     deleteSpeed={70}
                                     delaySpeed={1000}
                                 />
-                            </span></div>
-                            <p>E também amo criar coisas para a web e servidores. Esta paixão nasceu em 2018, com a linguagem C++ por conta  da curiosidade em criar jogos, dois anos depois entrei para o curso de Sistemas de Informação onde comecei a ter um maior contato com as tecnologias de desenvolvimento. <br />
-                                Pouco após o início do curso consegui minha primeira vaga na área de TI no Plano Santa Saúde, onde pude aprimorar muitas das minhas habilidades na área.
+                            </span></div> */}
+                            <p>Minha paixão por criar sistemas para web e servidores nasceu em 2018 com a linguagem C++, a partir da curiosidade em desenvolver jogos online.
+                                <br />
+                                <br />
+                                Dois anos depois, entrei para o curso de Sistema de Informação onde comecei a ter um maior contato com as tecnologias de desenvolvimento.
+                                <br />
+                                <br />
+                                Após o início do curso, consegui minha vaga na área de T.I no Plano Santa Saúde onde pude aprimorar muitas das minhas habilidades na área.
                             </p>
-                            <a href="src\assets\documents\curriculum.pdf" download >Download CV</a>
+                            <a href="https://spring-ionic-aws.s3.sa-east-1.amazonaws.com/curriculum.pdf" download >Download CV</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +116,8 @@ function Home() {
                     <div className="skills-content">
                         <div className="column left">
                             <div className="text">Minhas habilidades criativas e experiencias</div>
-                            <p>Habilidades concretas no desenvolvimento de aplicações atuando tanto no backend quanto no frotend, construindo aplicações desde o absoluto 0 até sua publicação em nuvem. </p>
+                            <p>Habilidades concretas no desenvolvimento de aplicações atuando tanto no backend quanto no frotend, construindo aplicações desde o absoluto 0 até sua publicação em nuvem utilizando as tecnologias mencionadas ao lado. 
+                            </p>
                             <a href="#contact">Mais informações</a>
                         </div>
                         <div className="column right">
@@ -166,19 +172,11 @@ function Home() {
                             <p>Abaixo estão algumas formas de me encontrar pelas redes, certamente será um prazer receber seu contato.</p>
                             <div className="icons--table">
                                 <div className="icons">
-                                    <div className="row">
-
-                                        <AiOutlineUser
-                                            size={60} className="react--icon" />
-                                        <div className="info">
-                                            <div className="head">Nome</div>
-                                            <div className="sub-title">Kristian Mello</div>
-                                        </div>
-                                    </div>
+                                    
                                     <div className="row">
                                         <a href="mailto:kristian.bonfim@hotmail.com">
                                             <AiFillMail
-                                            className="react--icon"
+                                                className="react--icon"
                                                 size={60} />
                                         </a>
                                         <div className="info">
@@ -188,7 +186,7 @@ function Home() {
                                     </div>
                                     <div className="row">
                                         <a href="https://www.linkedin.com/in/kristian-mello-bonfim-733b42214/">
-                                            <AiFillLinkedin size={60} className="react--icon"/>
+                                            <AiFillLinkedin size={60} className="react--icon" />
                                         </a>
                                         <div className="info">
                                             <div className="head">LinkedIn</div>
@@ -210,7 +208,7 @@ function Home() {
 
                                     <div className="row">
                                         <a href="https://www.instagram.com/kristianmello/">
-                                            <AiFillInstagram size={60} className="react--icon"/>
+                                            <AiFillInstagram size={60} className="react--icon" />
                                         </a>
                                         <div className="info">
                                             <div className="head">Instagram</div>

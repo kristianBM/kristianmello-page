@@ -179,7 +179,6 @@ section .title::after{
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
 }
 
@@ -203,7 +202,9 @@ section .title::after{
     color: #156fc3;
 }
 .about .about-content .right p{
+
     text-align: justify;
+    line-height: 1.6;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -252,6 +253,9 @@ section .title::after{
 .services .serv-content .card .box{
     transition: all 0.3s ease;
 }
+.box p{
+    line-height: 1.6;
+}
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
@@ -268,9 +272,6 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 /*  sessão especialidades  */
-.skills .title::after{
-    content: "Que atuo";
-}
 .skills .skills-content .column{
     width: calc(50% - 30px);
     
@@ -298,6 +299,10 @@ section .title::after{
 .skills .skills-content .left a:hover{
     color: #156fc3;
     background: none;
+}
+
+.left p{
+    line-height: 1.6;
 }
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
@@ -540,6 +545,8 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
+
+    .title
     .services .serv-content .card {
         width: calc(50% - 10px);
         margin-bottom: 20px;
@@ -571,5 +578,12 @@ footer span a:hover{
     }
     .home .home-content .text-3{
         font-size: 27px;
+    }
+
+}
+
+@media (max-width: 382px){
+    .about .title::after{
+        content: "";
     }
 }
