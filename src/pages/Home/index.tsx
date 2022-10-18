@@ -25,7 +25,7 @@ function Home() {
                         <li><a href="#contact">Contato</a></li>
                     </ul>
                     <div className="menu-btn">
-                        <AiOutlineMenu />
+
 
                     </div>
                 </div>
@@ -34,7 +34,7 @@ function Home() {
             <section className="home" id="home">
                 <div className="max-width">
                     <div className="home-content">
-                        <div className="text-1">Ola, meu nome é</div>
+                        <div className="text-1">Olá, meu nome é</div>
                         <div className="text-2">Kristian Mello</div>
                         <div className="text-3">eu sou <span className="typing" >
                             <Typewriter
@@ -115,8 +115,8 @@ function Home() {
                     <h2 className="title">Habilidades</h2>
                     <div className="skills-content">
                         <div className="column left">
-                            <div className="text">Minhas habilidades criativas e experiencias</div>
-                            <p>Habilidades concretas no desenvolvimento de aplicações atuando tanto no backend quanto no frotend, construindo aplicações desde o absoluto 0 até sua publicação em nuvem utilizando as tecnologias mencionadas ao lado. 
+                            <div className="text">Minhas habilidades criativas e experiências</div>
+                            <p>Habilidades concretas no desenvolvimento de aplicações atuando tanto no backend quanto no frotend, construindo aplicações desde o absoluto 0 até sua publicação em nuvem utilizando as tecnologias mencionadas ao lado.
                             </p>
                             <a href="#contact">Mais informações</a>
                         </div>
@@ -172,7 +172,7 @@ function Home() {
                             <p>Abaixo estão algumas formas de me encontrar pelas redes, certamente será um prazer receber seu contato.</p>
                             <div className="icons--table">
                                 <div className="icons">
-                                    
+
                                     <div className="row">
                                         <a href="mailto:kristian.bonfim@hotmail.com">
                                             <AiFillMail
